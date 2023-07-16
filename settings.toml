@@ -1,0 +1,14 @@
+
+[local]
+PATH_TO_ORDERS="PATH_TO_DATA/olist_orders_dataset.csv"
+PATH_TO_ORDER_ITEMS="PATH_TO_DATA/olist_order_items_dataset.csv"
+PATH_TO_ORDER_REVIEWS="PATH_TO_DATA/olist_order_reviews_dataset.csv"
+PATH_TO_SELLERS="PATH_TO_DATA/olist_sellers_dataset.csv"
+bootstrap_server = "localhost:9092"
+
+[docker]
+PATH_TO_ORDERS="/opt/frontend_simulator/data/olist_orders_dataset.csv"
+PATH_TO_ORDER_ITEMS="/opt/frontend_simulator/data/olist_order_items_dataset.csv"
+PATH_TO_ORDER_REVIEWS="/opt/frontend_simulator/data/olist_order_reviews_dataset.csv"
+PATH_TO_SELLERS="/opt/frontend_simulator/data/olist_sellers_dataset.csv"
+bootstrap_server = "kafka:29092"
